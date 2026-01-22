@@ -100,7 +100,6 @@ public class MyBookTracker {
         int[] empty = {};          // no weeks at all
         int[] single = {1};       // just one week
         int[] negatives = {-1, 0, 2}; // mixed / bad data
-
         System.out.println("Total books finished: " + sumOfEvens(weeklyBooks));
         System.out.println("Weeks with exactly 1 book: " + countOccurrences(weeklyBooks, 1));
         System.out.println("Weeks with exactly 2 books: " + countOccurrences(weeklyBooks, 2));
