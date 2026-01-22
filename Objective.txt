@@ -1,0 +1,21 @@
+1/20/2026
+
+Objective:
+
+The goal of this assignment is to practice designing a simple Java class by creating your own version of the Student class. You will define fields (such as name, id, and gpa), write a constructor, and implement the methods toString, equals, and hashCode. This assignment reinforces the object-oriented ideas introduced in the lesson, including classes, objects, fields, and how to compare objects.
+Instructions:
+
+    • Create a new Java file named Student.java.
+    • Inside the file, define a Java class named Student.
+    • Add the fields your Student object needs. Use private fields. At minimum, include:
+        • private String name;
+        • private int id;
+        • private double gpa;
+    • You may add more fields if you want, but these three are enough.
+   • Write a constructor that initializes all of your fields. For example, your constructor should take parameters for name, id, and gpa. Include any simple checks you think make sense (for example, gpa should not be negative).
+    • Write a toString() method that returns a simple, human-readable description of the student. Examples could include:
+        • "Student[name=Ana, id=1, gpa=3.8]"
+        • "Ana (ID: 1, GPA: 3.8)"
+    • You may choose your own format.
+    • Write an equals(Object obj) method. Two students should be considered equal if they represent the same real student. You may decide what this means, but a common rule is that two students are equal if they have the same id.
+    • Submit your project as a GitHub repository link.
