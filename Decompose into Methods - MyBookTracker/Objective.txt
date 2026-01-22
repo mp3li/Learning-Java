@@ -1,0 +1,31 @@
+1/21/2026
+
+Objective:
+
+    • Decompose a problem into small, single-responsibility methods with clear inputs and outputs.
+    Use the VS Code debugger to set breakpoints and step through loops, inspecting variables and verifying loop behavior.
+
+• Simple Problem:
+
+• Create a utility class to analyze integer arrays. Implement the following methods:
+
+    • sumOfEvens(int[] nums): Return the sum of all even numbers in the array.
+    • countOccurrences(int[] nums, int target): Return how many times the target value appears in the array.
+
+• Examples:
+
+    • sumOfEvens([1, 2, 3, 4, 5, 6]) = 12
+    • countOccurrences([2, 2, 2], 2) = 3
+
+• Edge cases: empty array, null array, single element, negative numbers, all equal elements.
+
+• Instructions:
+
+    • Set up a new Java project in VS Code.
+    • Analyze the problem and define clear method signatures and responsibilities (your algorithm).
+    • Implement the methods with proper handling of edge cases (e.g., null or empty arrays).
+    • Use the VS Code debugger:
+        • Set a breakpoint inside a loop.
+        • Step through iterations, watch variables, and verify loop conditions.
+        • Record 3–5 observations about loop behavior (include screenshots if allowed).
+   • Submit your project as a GitHub repository link.
