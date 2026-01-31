@@ -1,3 +1,22 @@
+# macOS
 .DS_Store
+
+# Java compiled output
 *.class
 
+# Common build output folders
+out/
+bin/
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/

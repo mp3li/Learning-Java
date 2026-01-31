@@ -1,0 +1,43 @@
+1/30/2026
+
+Objectives:
+
+• Practice using composition in Java with the Car, Engine, and Wheel example.
+• Create a simple multi-class console program.
+• Use packages to keep your classes organized.
+• Add basic input validation so your program does not allow bad data.
+• Use exceptions to handle errors in a friendly way.
+
+Instructions:
+
+• Create a new Java project or use existing one already on GitHub.
+• Use this composition example as your starting point:
+
+    public class Car {
+        private Engine engine;
+        private Wheel[] wheels;
+    }
+            
+• Your program will build a Car object using an Engine and several Wheel objects.
+• Create the classes you need:
+        • Car – holds an Engine and an array of Wheel objects.
+        • Engine – you can include fields like horsepower and type.
+        • Wheel – include simple fields like size and pressure.
+        • Add one more class of your choice, such as Driver or Battery.
+• Put your classes into packages.
+        • For example, one package for car parts and one for the main program.
+• Use encapsulation:
+        • Make all fields private.
+        • Create getters and setters to access the fields.
+• Add simple validation rules. For example:
+        • Wheel size must be greater than 0.
+        • Engine horsepower must be a positive number.
+        • The wheels array must not be empty.
+• If something is not valid, throw an exception.
+• Create at least one checked exception and one unchecked exception.
+• You may also create your own custom exception class.
+• In your main program:
+        • Ask the user for the values needed to create the Engine and Wheel objects.
+        • Use try/catch to handle bad inputs so the program does not crash.
+        • After creating all parts, assemble the Car object and show the results to the user.
+• Add simple comments that explain what needs to be true before (precondition) and after (postcondition) a method runs.
