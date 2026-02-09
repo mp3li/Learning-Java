@@ -1,0 +1,28 @@
+2/8/2026
+
+Objective:
+
+• Explain the difference between an Array and an ArrayList.
+• Use Java Generics to create a type-safe ArrayList<T>.
+• Iterate over arrays and ArrayLists using common loop patterns.
+
+Instructions:
+
+• Set Up
+        • Create a new Java file named ArraysArrayList.java.
+        • Add a main method so you can run and print results to the console.
+• Arrays vs ArrayList (Hands-On)
+        • Create an int[] array with 5 numbers. Print all elements and the length.
+        • Create an ArrayList<Integer>. Add the same 5 numbers. Print all elements and the size.
+        • Try to "grow" the array (explain why you cannot) and then add another number to the ArrayList.
+        • In a short comment, write when you would choose an Array vs an ArrayList.
+• Generics (Type Safety)
+        • Create an ArrayList<String> and add 3 names.
+        • Attempt to add a number to that list (as a commented-out line). Explain in a comment why this is not allowed.
+• Iteration Patterns
+        • Using the int[] array, print elements using:
+            • A traditional for loop with index.
+            • An enhanced for-each loop.
+        • Using the ArrayList<Integer>, print elements using:
+            • A traditional for loop (use get(i)).
+            • A while loop.
