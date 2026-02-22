@@ -1,0 +1,57 @@
+2/20/2026 
+
+Objective:
+
+Practice object-oriented design by:
+
+• Designing a simple class hierarchy that uses inheritance and polymorphism (e.g., Account → SavingsAccount / CheckingAccount).
+
+• Applying the Strategy pattern with interfaces to swap behaviors at runtime (for example: different interest or fee behaviors).
+
+• Following beginner-friendly SOLID ideas (especially Single Responsibility, Open/Closed, and Liskov Substitution).
+
+Instructions:
+
+1. Create the base class:
+        • Class: Account
+        • Fields: String owner, double balance
+        • Methods: deposit(double amount), withdraw(double amount), getBalance()
+        • Make any method you expect to vary in subclasses either overridable or call a protected hook method.
+
+2. Create subclasses:
+• SavingsAccount: may apply interest, may limit withdrawals.
+• CheckingAccount: may apply per-transaction fees or overdraft rules.
+• Ensure Liskov Substitution: a SavingsAccount or CheckingAccount should work anywhere an Account is expected.
+
+3. Define a Strategy interface (pick one focus):
+• interface InterestStrategy { double calculate(double balance); }
+• Or: interface FeeStrategy { double feeFor(double amount, double balance); }
+• Or: interface StatementStrategy { String format(String owner, double balance); }
+
+• Create at least two concrete strategies (e.g., SimpleInterest and TieredInterest) that implement the interface differently.
+
+4. Compose the strategy into Account:
+• Add a field of the interface type, for example: private InterestStrategy interestStrategy;
+• Add setter: setInterestStrategy(InterestStrategy s) (or equivalent for the strategy you chose).
+• Use the strategy inside a method, e.g., applyInterest() calls interestStrategy.calculate(balance).
+
+5. Demonstrate polymorphism:
+• Create an ArrayList<Account> that contains both SavingsAccount and CheckingAccount objects.
+• Loop through the list and call shared methods (e.g., deposit, withdraw); show each subclass behaves appropriately.
+
+6. Demonstrate strategy swapping at runtime:
+• Create an account with one strategy (e.g., SimpleInterest), run the behavior, and print the result.
+• Change to another strategy (e.g., TieredInterest), run again, and print the new result.
+• Explain in a comment how this follows Open/Closed (no class edits needed to add new strategies).
+
+7. Main method demo (beginner-friendly):
+• Create at least one SavingsAccount and one CheckingAccount.
+• Perform a few deposits and withdrawals.
+• Apply or calculate interest/fees (or your chosen behavior).
+• Print clear console output showing balances and which strategy is active.
+
+8. Constraints (to guide your design):
+• No complex libraries; standard Java only.
+• No static global variables for strategies; each account holds its own strategy instance.
+• Keep classes short and focused (Single Responsibility).
+• Name classes and methods clearly.
