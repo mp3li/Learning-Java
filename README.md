@@ -295,7 +295,6 @@ It is organized as a portfolio of objective-based projects that show progression
 
 ### Notes:
 - This repository is a **completed course portfolio** and is organized to make objective-by-objective review easy for instructors, hiring teams, and collaborators.
-- The folder `readme for example only` is unrelated to the CS 141 coursework and is not part of the graded objective set.
 - For final project specifics (features, recursion details, and testing checklist), see:
   - `Final Project - Java Fundamentals Portfolio Program /README.md`
 
