@@ -1,12 +1,8 @@
-![Version](https://img.shields.io/badge/Version-Portfolio%20v1-8A2BE2?labelColor=2E2E2E)
 ![Status](https://img.shields.io/badge/Status-Completed-8A2BE2?labelColor=2E2E2E)
 ![Course](https://img.shields.io/badge/Course-CS%20141%20Computer%20Science-8A2BE2?labelColor=2E2E2E)
-![Course Finished](https://img.shields.io/badge/Course-Finished-8A2BE2?labelColor=2E2E2E)
 ![Language](https://img.shields.io/badge/Language-Java-8A2BE2?labelColor=2E2E2E)
 ![Duration](https://img.shields.io/badge/Duration-11%20Weeks-8A2BE2?labelColor=2E2E2E)
-
 ![Program](https://img.shields.io/badge/Program-Software%20Development%20DTA%20Associate%20Pathway-8A2BE2?labelColor=2E2E2E)
-![Repository](https://img.shields.io/badge/Repository-Type%20Portfolio-8A2BE2?labelColor=2E2E2E)
 ![Focus](https://img.shields.io/badge/Focus-OOP%2C%20Algorithms%2C%20Data%20Structures%2C%20Recursion-8A2BE2?labelColor=2E2E2E)
 ![Final Project](https://img.shields.io/badge/Final%20Project-Student%20Records%20Manager-8A2BE2?labelColor=2E2E2E)
 ![Interface](https://img.shields.io/badge/Interface-Console%20Apps-8A2BE2?labelColor=2E2E2E)
@@ -294,8 +290,12 @@ It is organized as a portfolio of objective-based projects that show progression
 --------------------------------------------------
 
 ### Notes:
+<details>
+<summary><em>Open Notes</em></summary>
+
 - This repository is a **completed course portfolio** and is organized to make objective-by-objective review easy for instructors, hiring teams, and collaborators.
-- For final project specifics (features, recursion details, and testing checklist), see:
-  - `Final Project - Java Fundamentals Portfolio Program /README.md`
+- For final project specifics (features, recursion details, and testing checklist), see `Final Project - Java Fundamentals Portfolio Program /README.md`.
+
+</details>
 
 --------------------------------------------------
