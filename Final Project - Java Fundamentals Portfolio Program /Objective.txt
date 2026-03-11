@@ -1,0 +1,140 @@
+3/8/2026
+
+Final Project: Java Fundamentals Portfolio Program 
+
+Objective:
+
+• Create a Java program that demonstrates the core skills from this course: problem-solving, algorithm development, object-oriented programming (OOP), testing and debugging, and foundational computer science concepts (data structures, recursion, and software design).
+
+• By the end of this project, you will be able to plan a solution, write and organize Java code using classes and objects, validate your program with test cases, and explain how your program works.
+
+Project Overview:
+
+• You will build a small, menu-based, console application called Student Records Manager. The program stores and manages a list of student records. Users can add, view, search, update, and remove records. You will use OOP to model data, a data structure to store records, and at least one recursive method to demonstrate recursion.
+
+Requirements:
+
+    • Programming Language: Java
+    • Interface: Console (text-based), no GUI required
+    • Core Concepts: OOP, algorithms, data structures, recursion, testing/debugging
+    • Data Structure: Use an ArrayList to store records
+    • Recursion: Include at least one recursive method used meaningfully
+
+What Your Program Must Do:
+
+1. Display a menu repeatedly until the user chooses to quit.
+• Example actions: Add student, List all students, Search, Update, Remove, Sort, Quit
+
+2. Store student records in an ArrayList.
+• Each student must include at least: Student ID, First Name, Last Name, and at least one score (or GPA).
+
+3. Use OOP by creating and using classes.
+• Create a Student class to represent a student record.
+• Create a separate class (for example, StudentManager) to manage the list and operations.
+
+4. Implement at least 5 features from the list below:
+        • Add a student (required)
+        • List all students
+        • Search by Student ID
+        • Search by Last Name
+        • Update a student’s information
+        • Remove a student
+        • Sort students (by ID or name)
+        • Compute a statistic (average score, highest score, count above threshold)
+
+5. Validate input to prevent common errors.
+        • Do not allow duplicate Student IDs.
+        • Handle non-numeric input when a number is required.
+        • Handle empty inputs for required fields.
+
+6. Include recursion in a clear and purposeful way.
+• Example recursion choices (pick one):
+• Recursive menu re-prompt method that safely repeats until a valid option is chosen
+• Recursive search through the list (educational demonstration)
+• Recursive method to compute a value (for example, count students meeting a condition)
+• Include a brief comment explaining why/where recursion is used.
+
+
+Step-by-Step Instructions:
+
+1. Plan your data model
+        • Decide what fields your Student will have (ID, name, score).
+        • Write down at least 3 example records you will use for testing.
+
+2. Create the Student class
+        • Add private fields for student information.
+        • Create a constructor to set field values.
+        • Create getters/setters as needed.
+        • Create a toString method to print a student clearly.
+3. Create a manager class (for example, StudentManager)
+        • Store students in an ArrayList.
+        • Add methods for each feature you plan to support (add, list, search, update, remove).
+
+4. Build the menu loop
+        • Print menu options.
+        • Read the user’s choice.
+        • Call the correct method based on the choice.
+        • Repeat until the user chooses Quit.
+
+5. Implement input validation
+        • Use loops to re-prompt for invalid input.
+        • Prevent duplicate IDs by searching the list before adding.
+        • Use try/catch for numeric parsing where appropriate.
+    
+6. Add recursion
+        • Choose one recursive feature (menu re-prompt, recursive search, recursive count).
+        • Implement it and add a comment explaining it.
+        • Test recursion with multiple cases to ensure it stops correctly.
+
+7. Test and debug
+        • Create at least 8 test cases (see the Testing section below).
+        • Run your program and verify expected results.
+        • Fix any crashes, incorrect outputs, or input issues.
+    
+8. Finalize and document
+        • Ensure your code is readable (meaningful names, consistent formatting).
+        • Add comments only where helpful (especially for recursion and tricky logic).
+
+
+Required Deliverables:
+
+• Java source files
+        • Student.java
+        • StudentManager.java
+        • Main.java or App.java
+
+• README (add on GitHub or use Java: Create Java Project... in VS Code using Ctrl + Shift + P)
+        • Project description (2–4 sentences)
+        • How to run the program
+        • List of features implemented
+        • Where recursion is used and why
+
+
+Testing Checklist (Minimum 8 Test Cases):
+
+    • Add a student successfully
+    • Attempt to add a student with a duplicate ID (should be rejected)
+    • List students when the list has multiple entries
+    • Search for an existing student by ID
+    • Search for a non-existing student by ID (should show “not found")
+    • Update a student’s score or name and confirm the change
+    • Remove an existing student and confirm they are gone
+    • Enter invalid menu input (letters when a number is expected) and confirm program does not crash
+
+
+Grading Criteria:
+
+    • Correctness: Features work as described; program handles common errors.
+    • OOP Design: Student data is modeled with a class; responsibilities are separated logically.
+    • Data Structures: Uses ArrayList effectively for storing and processing records.
+    • Recursion: Includes a real recursive method with a clear base case and explanation.
+    • Algorithmic Thinking: Uses clear steps for searching, updating, sorting, and computing results.
+    • Testing & Debugging: Provides test cases and demonstrates stable behavior.
+    • Readability: Clear naming, reasonable comments, and consistent formatting.
+
+Success Tips:
+
+    • Start small: get the menu working first, then add features one at a time.
+    • Test after every new feature to catch bugs early.
+    • Use methods to keep your code organized and easier to debug.
+    • Make sure your recursion has a clear stopping condition (base case).
